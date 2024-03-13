@@ -9,9 +9,6 @@ const InputContainer = () => {
 
     const onClickHandler = ()=>{
 
-        // const itemsData = itemsToBuys; //PrevData
-        // itemsData.push(textInputValue);
-        // setItemsToBuys(itemsData)
 
         setItemsToBuys((prevData)=>{
             return [...prevData, {
@@ -34,7 +31,7 @@ const InputContainer = () => {
         >
             <div
                 style={{
-                    backgroundColor : "#F2F2C3",
+                    backgroundColor : "pink",
                     padding: '20px'
                 }}
             >
