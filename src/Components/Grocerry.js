@@ -31,7 +31,7 @@ const InputContainer = () => {
         >
             <div
                 style={{
-                    backgroundColor : "pink",
+                    backgroundColor : "blue",
                     padding: '20px'
                 }}
             >

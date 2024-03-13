@@ -8,7 +8,7 @@ const ItemList = ({itemName, index, itemsToBuys, setItemsToBuys, isPurchased}) =
     setItemsToBuys((prevState)=>{
         const data = [...prevState];
 
-        data.splice(index, 1)
+        data.splice(index, 1);
 
         return data
     })
